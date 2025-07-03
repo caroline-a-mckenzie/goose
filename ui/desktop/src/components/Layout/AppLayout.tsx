@@ -78,7 +78,7 @@ const AppLayoutContent: React.FC<AppLayoutProps> = ({ setIsGoosehintsModalOpen }
 
   return (
     <div className="flex flex-1 w-full relative animate-fade-in">
-      <div className={`${headerPadding} absolute top-3 z-100 flex items-center`}>
+      <div className={`${headerPadding} absolute top-3 z-[100] flex items-center`}>
         <SidebarTrigger
           className={`no-drag hover:border-border-strong hover:text-text-default hover:!bg-background-medium hover:scale-105`}
         />
